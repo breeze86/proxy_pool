@@ -73,4 +73,6 @@ class Tester(object):
 
 if __name__ == '__main__':
     tester = Tester()
+    _tasks = [tester.test(Proxy('117.70.39.127',5412))]
+    tester.loop.run_until_complete(asyncio.wait(_tasks))
     tester.run()

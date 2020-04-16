@@ -39,7 +39,7 @@ if REDIS_CONNECTION_STRING:
 REDIS_KEY = env.str('REDIS_KEY', 'proxies:universal')
 
 # definition of proxy scores
-PROXY_SCORE_MAX = 1000
+PROXY_SCORE_MAX = 100
 PROXY_SCORE_MIN = 0
 PROXY_SCORE_INIT = 10
 
