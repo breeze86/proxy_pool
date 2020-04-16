@@ -28,7 +28,7 @@ class WanDouIpCrawler(BaseCrawler):
     kwargs = {'params': {
             'app_key': 'f0c0707bac3282d147ecd9458c833d70',
             'pack': 210641,
-            'num': 2,
+            'num': 4,
             'xy': 1,
             'type': 2,
             'lb': r'\r\n',
