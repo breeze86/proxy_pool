@@ -50,7 +50,7 @@ PROXY_NUMBER_MIN = 0
 # definition of tester cycle, it will test every CYCLE_TESTER second
 CYCLE_TESTER = env.int('CYCLE_TESTER', 20)
 # definition of getter cycle, it will get proxy every CYCLE_GETTER second
-CYCLE_GETTER = env.int('CYCLE_GETTER', 1800)
+CYCLE_GETTER = env.int('CYCLE_GETTER', 600)
 
 # definition of tester
 TEST_URL = env.str('TEST_URL', 'http://www.baidu.com')
